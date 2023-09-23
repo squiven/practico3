@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.botones {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 30vh; /* Establecer la altura al 100% de la ventana */
+}
+
+.opcion {
+  margin: 10px; /* Ajusta el margen en todos los lados de las imágenes */
+}
+
+.opcion img {
+  max-width: 100px; /* Ajusta el tamaño máximo de las imágenes según sea necesario */
+  margin: 0 10px; /* Ajusta el margen superior e inferior de las imágenes */
+}
+
+/* Estilos para el marcador */
+.marcador {
+  margin-bottom: 20px; /* Ajusta el margen inferior del marcador según tus necesidades */
+}

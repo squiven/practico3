@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Juego de Piedra, Papel o Tijera en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una implementación de un juego de Piedra, Papel o Tijera en React, donde el jugador compite contra la computadora. El juego permite al jugador ingresar su nombre, seleccionar una opción entre Piedra, Papel y Tijera, y muestra el resultado de cada ronda. El objetivo es llegar a 3 victorias seguidas para ganar el juego.
 
-## Available Scripts
+## Características del Juego
 
-In the project directory, you can run:
+- **Selección de Nombre:** Los jugadores pueden ingresar su nombre antes de comenzar a jugar. El juego requiere que el nombre se confirme antes de continuar.
 
-### `npm start`
+- **Interfaz Gráfica Amigable:** La interfaz de usuario es fácil de entender y ofrece botones visuales para seleccionar las opciones de juego (Piedra, Papel o Tijera).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Marcador:** El juego lleva un registro del marcador, mostrando las victorias del jugador y de la computadora.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Rondas Limitadas:** El juego se juega al mejor de 5 rondas. El primero en llegar a 3 victorias seguidas se considera el ganador.
 
-### `npm test`
+- **Mensaje de Bienvenida:** Después de confirmar el nombre, el juego muestra un mensaje de bienvenida personalizado antes de comenzar.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Mensaje de Resultado:** Tras cada ronda, se muestra el resultado (ganador, empate o perdedor) y se actualiza el marcador.
 
-### `npm run build`
+- **Finalización del Juego:** Cuando un jugador (jugador humano o computadora) alcanza 3 victorias seguidas, el juego se finaliza y muestra un mensaje de felicitaciones o derrota.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Reinicio del Juego:** Después de finalizar el juego, se puede reiniciar para comenzar una nueva partida.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Características del Código
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Componentes React:** El código utiliza componentes React para estructurar la aplicación de manera organizada y modular.
 
-### `npm run eject`
+- **Manejo de Estado:** Se emplea el estado de React para mantener y actualizar información importante del juego, como el nombre del jugador, el marcador y el resultado de cada ronda.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Lógica de Juego:** Se implementa una lógica de juego que determina el resultado de cada ronda y verifica cuándo se alcanzan las condiciones de finalización.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Interacción de Usuario:** El código maneja la interacción del usuario, como la entrada del nombre, la selección de opciones y el reinicio del juego.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Estilo y CSS:** Se aplica un estilo CSS para mejorar la apariencia de la interfaz y centrar las imágenes de las opciones de juego.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Mensajes Personalizados:** Se muestra un mensaje de bienvenida personalizado con el nombre del jugador al confirmar el nombre.
 
-## Learn More
+## Notas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Dificultades en el Desarrollo:** Durante la creación de este proyecto, enfrenté varias dificultades, especialmente en términos de conocimiento y lógica de programación. Para superar estos obstáculos, busqué ayuda en recursos en línea, foros y comunidades de desarrollo, y también recibí asistencia de diversas IA para optimizar y completar el código principal basado en el práctico anterior.
