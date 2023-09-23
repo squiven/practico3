@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/practico3/static/css/main.764065b0.css",
-    "main.js": "/practico3/static/js/main.c16afe1a.js",
+    "main.js": "/practico3/static/js/main.df1208e1.js",
     "static/js/787.f9640105.chunk.js": "/practico3/static/js/787.f9640105.chunk.js",
     "static/media/papel.png": "/practico3/static/media/papel.0db4033eb64a6f1cda29.png",
     "static/media/piedra.png": "/practico3/static/media/piedra.0984ec37b1532f389b5e.png",
     "static/media/tijeras.png": "/practico3/static/media/tijeras.8467eede61d09fa91e23.png",
     "index.html": "/practico3/index.html",
     "main.764065b0.css.map": "/practico3/static/css/main.764065b0.css.map",
-    "main.c16afe1a.js.map": "/practico3/static/js/main.c16afe1a.js.map",
+    "main.df1208e1.js.map": "/practico3/static/js/main.df1208e1.js.map",
     "787.f9640105.chunk.js.map": "/practico3/static/js/787.f9640105.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.764065b0.css",
-    "static/js/main.c16afe1a.js"
+    "static/js/main.df1208e1.js"
   ]
 }
